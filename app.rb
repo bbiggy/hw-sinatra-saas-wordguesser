@@ -88,3 +88,5 @@ class WordGuesserApp < Sinatra::Base
   end
 
 end
+
+WordGuesserApp.run! :port => 8000
